@@ -8,23 +8,23 @@ export const profile = {
   email: 'pawaritmuangrat@gmail.com',
   edition: '2026',
   availability: 'Open to opportunities',
-  intro: 'Projects, hackathons & internships — building things that talk, sort and solve.',
+  intro: 'Projects, hackathons & internships — building things that talk, sense and solve.',
   about:
-    'I’m Pawarit — a developer who loves building things that talk back. From chat and voice bots at Botnoi to a chemical-sorting project for my school and hackathon prototypes, I turn ideas into working products.',
-  focus: ['Chat bots', 'Voice bots', 'Rapid prototyping', 'Hackathons'],
+    'I’m Pawarit — a developer who builds things that talk and sense. From voice bots for real clients at Botnoi to an ultrasonic sensing array and an Etsy shop that taught me hard lessons, I turn ideas into working products.',
+  focus: ['Voice & chat bots', 'AI agents', 'Embedded sensing', 'Hackathons'],
   experience: [
     {
       org: 'Botnoi',
-      role: 'Chat Bot & Voice Bot Engineer — Intern',
+      role: 'Agent Builder / Solution Engineer — Intern',
       period: '2 months',
     },
   ],
-  now: ['Competing at SKY ICT', 'Adding new projects soon'],
+  now: ['Competing in SKY ICT and KIBO', 'Adding new projects soon'],
   // Put your CV at public/cv.pdf and set cvUrl: '/cv.pdf' to show a download button.
   cvUrl: '',
   socials: [
     { label: 'Email', url: 'mailto:pawaritmuangrat@gmail.com' },
     { label: 'LinkedIn', url: '' },
-    { label: 'GitHub', url: '' },
+    { label: 'GitHub', url: 'https://github.com/pawaritmuangrach' },
   ],
 }
