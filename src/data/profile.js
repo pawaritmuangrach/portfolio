@@ -10,8 +10,8 @@ export const profile = {
   availability: 'Open to opportunities',
   intro: 'Projects, hackathons & internships — building things that talk, sense and solve.',
   about:
-    'I’m Pawarit — a developer who builds things that talk and sense. From voice bots for real clients at Botnoi to an ultrasonic sensing array and an Etsy shop that taught me hard lessons, I turn ideas into working products.',
-  focus: ['Voice & chat bots', 'AI agents', 'Embedded sensing', 'Hackathons'],
+    'I’m Pawarit — a developer who builds things that talk and sense. From voice bots for real clients at Botnoi to an ultrasonic sensing array and an RFID warehouse gate, I turn ideas into working products.',
+  focus: ['Voice & chat bots', 'AI agents', 'Embedded sensing & RFID', 'Robotics'],
   experience: [
     {
       org: 'Botnoi',
@@ -19,7 +19,7 @@ export const profile = {
       period: '2 months',
     },
   ],
-  now: ['Competing in SKY ICT and KIBO', 'Adding new projects soon'],
+  now: ['Competing in SKY ICT and KIBO', 'Designing the Valeo Smart Gate', 'Member of the SKUBA robotics club'],
   // Put your CV at public/cv.pdf and set cvUrl: '/cv.pdf' to show a download button.
   cvUrl: '',
   socials: [
