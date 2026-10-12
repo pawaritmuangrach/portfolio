@@ -19,7 +19,7 @@ export const profile = {
       period: '2 months',
     },
   ],
-  now: ['Competing in SKY ICT and KIBO', 'Designing the Valeo Smart Gate', 'Member of the SKUBA robotics club'],
+  now: ['Competing in SKY Innovation Spark and KIBO', 'Designing a warehouse RFID smart gate', 'Member of the SKUBA robotics club'],
   // Put your CV at public/cv.pdf and set cvUrl: '/cv.pdf' to show a download button.
   cvUrl: '',
   socials: [
