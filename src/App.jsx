@@ -11,6 +11,7 @@ import Marquee from './components/Marquee'
 import Nav from './components/Nav'
 import Preloader from './components/Preloader'
 import ProjectModal from './components/ProjectModal'
+import Timeline from './components/Timeline'
 import Work from './components/Work'
 
 // three.js is the heaviest dependency — load it after the page has painted.
@@ -59,6 +60,7 @@ export default function App() {
         <Hero ready={ready} />
         <Marquee />
         <Work onOpen={openProject} />
+        <Timeline onOpen={openProject} />
         <About />
         <Contact />
       </main>

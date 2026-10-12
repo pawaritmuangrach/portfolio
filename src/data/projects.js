@@ -1,5 +1,6 @@
 // Add new work by appending an object to this array — no other code changes needed.
 //
+// start/end: 'YYYY-MM' or 'YYYY-MM-DD'; end may be 'present'. Omit both to show "Date TBA".
 // category: 'Project' | 'Hackathon' | 'Intern' | 'Others'
 // cover:    { bg, fg } colors for the generated cover art (used when `images` is empty)
 // images:   optional array of image URLs (put files in /public/work/...)
@@ -12,8 +13,8 @@ export const projects = [
     id: 'ultrasonic-array',
     title: 'Ultrasonic Array',
     category: 'Project',
-    year: '2026',
-    period: 'Jul – Sep 2026',
+    start: '2026-07', // TODO: confirm start; add end: 'YYYY-MM' or 'present'
+    period: '',
     status: 'Working prototype',
     role: 'Hardware, firmware & data pipeline',
     summary: 'A 40 kHz ultrasonic TDOA sensor array that finds the direction and distance of obstacles — built as a LiDAR alternative for an RC car.',
@@ -37,7 +38,6 @@ export const projects = [
     id: 'botnoi-internship',
     title: 'Botnoi',
     category: 'Intern',
-    year: '',
     period: '2 months',
     status: 'Completed',
     role: 'Agent Builder / Solution Engineer — Intern',
@@ -62,7 +62,6 @@ export const projects = [
     id: 'lab-box',
     title: 'Lab Box',
     category: 'Project',
-    year: '',
     period: '',
     status: 'Completed',
     role: '',
@@ -81,7 +80,6 @@ export const projects = [
     id: 'sky-ict',
     title: 'SKY ICT',
     category: 'Hackathon',
-    year: '2026',
     period: '',
     status: 'In progress',
     role: '',
@@ -100,7 +98,6 @@ export const projects = [
     id: 'kibo',
     title: 'KIBO',
     category: 'Hackathon',
-    year: '',
     period: '',
     status: 'In progress',
     role: '',
@@ -119,7 +116,6 @@ export const projects = [
     id: 'etsy-store',
     title: 'Etsy Store',
     category: 'Others',
-    year: '',
     period: '4 months',
     status: 'On hold',
     role: 'Founder',

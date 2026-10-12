@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { AnimatePresence, motion, useMotionValue, useSpring, useTransform, useVelocity } from 'motion/react'
 import { CATEGORIES, projects } from '../data/projects'
+import { formatDate } from '../lib/dates'
 import Cover from './Cover'
 
 const FILTERS = ['All', ...CATEGORIES]
@@ -95,7 +96,7 @@ export default function Work({ onOpen }) {
                   <span className="row__title">{p.title}</span>
                   <span className="row__meta">
                     <span className="row__cat">{p.category}</span>
-                    <span className="row__year">{p.year || p.status}</span>
+                    <span className="row__year">{p.start ? formatDate(p.start) : p.status}</span>
                   </span>
                   <Cover project={p} className="row__thumb" />
                 </button>

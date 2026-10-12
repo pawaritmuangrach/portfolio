@@ -4,6 +4,7 @@ import { scrollToTarget } from '../lib/smoothScroll'
 
 const LINKS = [
   { label: 'Work', target: '#work' },
+  { label: 'Timeline', target: '#timeline' },
   { label: 'About', target: '#about' },
   { label: 'Contact', target: '#contact' },
 ]

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { motion, useMotionValue, useSpring, useTransform } from 'motion/react'
 import { projects } from '../data/projects'
+import { durationLabel, formatRange } from '../lib/dates'
 import { lockScroll, unlockScroll } from '../lib/smoothScroll'
 import Cover from './Cover'
 
@@ -57,7 +58,8 @@ export default function ProjectModal({ projectId, onClose, onNavigate }) {
   const meta = [
     ['Category', project.category],
     ['Role', project.role],
-    ['Period', project.period || project.year],
+    ['Dates', formatRange(project.start, project.end)],
+    ['Duration', durationLabel(project.start, project.end) || project.period],
     ['Status', project.status],
   ].filter(([, v]) => v)
   const links = (project.links || []).filter((l) => HTTP_URL.test(l.url))

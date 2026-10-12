@@ -34,6 +34,7 @@ const BONDS = [
 const TARGETS = {
   hero: { x: 0.2, y: 0, w: 0.78, o: 1 },
   work: { x: 0, y: 0, w: 0.55, o: 0.1 },
+  timeline: { x: 0, y: 0, w: 0.55, o: 0.1 },
   about: { x: -0.3, y: 0, w: 0.33, o: 1 },
   contact: { x: 0.3, y: 0.1, w: 0.34, o: 1 },
 }
